@@ -1,9 +1,9 @@
-import React from "react"
+import React from "react";
  
 function Blogs(props) {
   return (
     <div>
-      <h1>Blogs</h1>
+      <h1>Blog</h1>
     </div>
   )
 }
