@@ -1,7 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Kaisei+Tokumin&display=swap');
 
-body {
-    font-family: 'Kaisei Tokumin', serif;
+#title {
+    font-style: normal;
+    color: black;
+}
+#blog {
+    color: white;
+}
+#books {
+    color: white;
+}
+#pages {
+    color: white;
+}
+
+.navigationbar {
+    background-color: #D5DDD7;
 }
 
 
+body {
+    font-family: 'Kaisei Tokumin', serif;
+    font-style: italic;
+}
