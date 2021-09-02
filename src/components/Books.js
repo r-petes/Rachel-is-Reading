@@ -1,10 +1,28 @@
 import React from "react";
+import EachBook from "./EachBook";
  
 function Books(props) {
   return (
     <div>
-      <h1>Books</h1>
+    <div>
+    <h1>Writings</h1>
+    <EachBook
+      link=""
+      image=""
+      title=""
+      category=""
+    />
     </div>
+    <div>
+    <h1>Writings</h1>
+    <EachBook
+      link=""
+      image=""
+      title=""
+      category=""
+    />
+  </div>
+  </div>
   )
 }
  

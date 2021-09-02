@@ -1,9 +1,27 @@
 import React from "react";
+import EachBlog from "./EachBlog";
  
 function Blogs(props) {
   return (
     <div>
-      <h1>Blog</h1>
+      <div>
+      <h1>Writings</h1>
+      <EachBlog
+        link=""
+        image=""
+        title=""
+        category=""
+      />
+      </div>
+      <div>
+      <h1>Writings</h1>
+      <EachBlog
+        link=""
+        image=""
+        title=""
+        category=""
+      />
+    </div>
     </div>
   )
 }

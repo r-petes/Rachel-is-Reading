@@ -12,10 +12,6 @@ function App() {
   return (
     <BrowserRouter>
 
-      <Route exact path="/" component={Blogs} />
-        <Route path="/about" component={About} />
-        <Route path="/books" component={Books} />
-
     <Navbar className="navbar">
     <Container>
     <Navbar.Brand href="#home" id="title">RACHEL IS READING</Navbar.Brand>
@@ -26,6 +22,11 @@ function App() {
     </Nav>
     </Container>
   </Navbar>
+
+        <Route exact path="/" component={Blogs} />
+        <Route path="/about" component={About} />
+        <Route path="/books" component={Books} />
+
   </BrowserRouter>
     )
 }
