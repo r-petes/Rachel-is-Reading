@@ -1,6 +1,6 @@
 import React from "react";
 import EachProject from "./EachProject";
-import savebucks from './projectphotos/savebucksoverview.png';
+import savebucks from './images/savebucksoverview.png';
  
 function Projects(props) {
   return (
